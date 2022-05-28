@@ -1,0 +1,8 @@
+site_name: green-ee
+# theme: psinder
+nav:
+    - Home: index.md
+    - About: about.md
+    - Why?: why.md
+    - Power: responsibility.md
+    - Whitepaper: ul.md
