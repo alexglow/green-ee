@@ -1,4 +1,4 @@
 # green-ee
 A directory of resources for building helpful electronics in a sustainable, ethical, and thoughtful way. Check out the [wiki](https://github.com/alexglow/green-ee/wiki) and stay tuned for a full-fledged site, for which people will be able to actually submit edits – coming soon at [green-ee.com](https://green-ee.com) :)
 
-[Submit your own links here!](https://bit.ly/glinked)
+This site is written in MkDocs. It is not served directly from this repo, but this repo should match what's on the site. You may submit pull requests if you like, but that doesn't mean anything will change. Instead, please use the submission form: [bit.ly/glinked](https://bit.ly/glinked)
