@@ -1,4 +1,4 @@
-# Responsibility
+# Power / Responsibility
 
 As individuals, the climate situation isn't necessarily "our" fault – but fixing it is our responsibility. (Or, rather – it's our POWER!)
 
