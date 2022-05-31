@@ -1,11 +1,11 @@
-## welcome to the green-EE resource page!
+## welcome to the green-EE page!
 
-Resources for building helpful electronics in a sustainable, ethical, and thoughtful way.
-Made for [OHS 2022](https://www.youtube.com/watch?v=c52uKKYoh2E). A starting point – not exhaustive. Suggestions welcome!  
-Last updated 22.5.27
+A directory of resources for building helpful electronics in a sustainable, ethical, and thoughtful way.  
+A starting point – not exhaustive.  
+[Submit links here!](https://bit.ly/glinked)
 
 #### Questions to address:
-* [What impact can we actually have?](https://github.com/alexglow/green-ee/wiki/Responsibility)  
+* [What impact can we individuals actually have?](https://github.com/alexglow/green-ee/wiki/Responsibility)  
 * [Why am I building a new thing?](https://github.com/alexglow/green-ee/wiki/Why-build%3F)  
 * What sustainable materials, processes, power sources, and so forth can I use in my project?  
 * If I have a hardware business, how can I run that sustainably – from the website to the packaging and shipping?  
@@ -124,8 +124,8 @@ Last updated 22.5.27
 * Sustainable snacks! Try fueling your work with cricket protein bars, like [EXO](https://exoprotein.com/collections/all-products) or [BugOut](https://bugout.bar/products/cricket-protein-bar-box-of-12-chocolate-brownie)
 * Team building? Look up local Fixit Clinics / Repair Cafés: meetups where people are invited to bring broken appliances, and volunteers will help fix them
 
-## Build for the Future: Project inspiration
-######  What problems _do_ have technological solutions? Some ideas to get the creativity flowing...
+## Project inspiration
+######  Build for the future! What problems _do_ have technological solutions? Some ideas to get the creativity flowing...
 * Agriculture: vertical farming, seaweed, hemp, edible insects, and other sustainable options for materials and food
     * Composting: [Compost Professor](https://www.hackster.io/darian-johnson) and other projects by Darian Johnson
 * Drones for good: [Jinger Zeng on positive applications for UAV technology](https://www.youtube.com/watch?v=_UqYqh233cw&list=PLsRBa4uXjihZwcYrwwuPhsYxWtFwMBqDF&index=3&t=818s)

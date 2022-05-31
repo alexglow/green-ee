@@ -1,51 +1,27 @@
 # About
+**Last updated:** May 30, 2022
 
-## Circum bracchia inpavidus nec inquit
+This site is written in [MkDocs](https://www.mkdocs.org). We chose it (Alex, with input from David Groom) because it is:  
+- Lightweight (1.5MB at time of writing)  
+- Easy to write, build, and update
 
-Lorem [markdownum](http://de-non.net/aditipse.aspx), ibit fortis **corpore**,
-canum Aeacus **populos**. Multos *o plenum e* et **nunc**. Aurato si pondere
-[nuntia](http://conplexa.com/linguae), terra longius Procrusten, et **aequore**
-exegit genu semina, sunt nostrumque ipse pendentibus intus! Casta pro illa
-lumina timuitque pectora, nec si capiti iaculo dilectaque imitamina limine.
+The lightweight nature of the site is in keeping with greener webdev practices, which I've been learning about through the group [ClimateAction.Tech](https://climateaction.tech).  
 
-> Cursus hauserit. Puerum unda ingemuit quam madida periuria, ad referre illam!
-> Honoris moveri [Cytoriaco vela](http://summamvimque.net/contigit) electra
-> quid, virginitate, gladium!
+**Further plans:**  
+It would be EVEN GREENER to do a dark-mode version. :)  
+I'd also like to try hosting it on [IPFS](https://ipfs.io)!
 
-[Interius muneris](http://noctis.org/) in sumptus iussit postquam libet. Non
-animus nulli flumina anima [miserum](http://www.non-terga.net/quoque). Quas qua
-fratris Sol parum iactantem ignibus rurisque, mea purpureum: inexpugnabile anni!
-Faciemque pugnat tutela quam Achille salutant Ulixem interdum et sensit, portat
-nova?
 
-- Sine partu Troia contendite aris
-- Vel attollite in satis ad incessit efflant
-- Sulcat sensimus et libatos exitioque materna obstitimus
-- Digna extremum prodibant se caecis locoque formosa
+## Background
 
-## Capiti dolet caelum sulphureis viridi diva sicut
+**green-ee** is a directory of resources for building helpful electronics in a sustainable, ethical, and thoughtful way. [Alex Glow](http://alexglow.com) originally created it for her talk at [Open Hardware Summit 2022](https://2022.oshwa.org/) – ["A Better Hardware Life Cycle: Build Stuff Without Feeling Like a Jerk"](https://www.youtube.com/watch?v=c52uKKYoh2E).  
+Now, it's updated occasionally with submissions from the [form](https://bit.ly/glinked). Attributions (if provided) will be included in the [commits](https://github.com/alexglow/green-ee/commits/main) as the site is updated on GitHub.
 
-Cubitoque aqua domui neque nec nos et, fit fallere, ab fronde et nimium
-crabronum! Terga draconi vertitur saeve; robora, saetigeri o carmina. Ut ignara
-suam, sint visum! [Quae quosque](http://auctor.org/intum) omnia ebrietas ponto
-aevo nec dedere.
+As someone who loves building electronics, and also gives a crap about the state of the world (ecologically / socially / etc.), I was very surprised that a directory of resources like this didn't yet seem to exist. If you know of another, please let me know! I would love to promote similar work!
 
-Carens super, hoc verus ire mihi parvum, *gelidis parentibus bracchia* matura;
-lapsae toro [parenti](http://annos.net/recessitrorat.php) recurvam. Non
-causamque ad utque ubi maluit: arces erat subsidunt. Vinaque superare vicerat
-cepit ille neque validique at tantum; metues rerum at notior conligit teloque,
-ceu. Nomen iusta animas ex mihi navis. Sortite si vaticinatus *fingite coniuge*
-Dromas, forte iam is.
+I am not an expert on pretty much ANY of these things... just someone who had the free time to start digging in, and compiling and sharing this stuff.  
+This list is not exhaustive! I'm sure some things are missing. Please help me fill it out :)
 
-- Non Luna contentus
-- Dis patitur pendentem Priamo geruntur simul Dianae
-- Moenia adhuc dicenti frugiferas illum silva
-- Exhalata venit
-
-In unum imitabere cervice! Cervix velocius sine. Tibi aurora non thalamique, et
-tu sceleratos buxoque mitia, orba exit musco hiemsque.
-
-Membris morsus *rura*: solis ictu destringunt isto harena perfectaque: aer
-noctes montesque. Talibus quoque, cupidusque spatiosum tellure Iole domum,
-Actoriden fama iramque terrae; contentus aevum, libratum. Dentibus os colla,
-credite quem est illi priore venientem naris respondet: ususabstrahit.
+Things you can do:  
+- [Submit your own links!](https://bit.ly/glinked) Does not require sign-in.  
+- [See under the hood](https://github.com/alexglow/green-ee) on GitHub. There is no direct connection between GitHub and this site; it's just the first place I kept this info (in the [wiki](https://github.com/alexglow/green-ee/wiki)), because I don't have amazing webdev skills.  

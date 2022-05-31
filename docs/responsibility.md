@@ -1,54 +1,23 @@
-# Summoque atque
+# Responsibility
 
-## Iamque liquebat Enipeu
+As individuals, the climate situation isn't necessarily "our" fault – but fixing it is our responsibility. (Or, rather – it's our POWER!)
 
-Lorem markdownum longis. Vacuas *illa*, senilibus quas Eurydicenque aquas
-capillo sanguine bella, oraque. Factum erimus; tuo concha tamquam. Et quid
-saxum, tutus capillis ab seque animalia ignara, cognoscere exhibuit.
+Most of us don't have a huuuuge impact on how we got here, as various studies have found...
+- [World's richest 1% responsible for 50% of emissions](https://www.theguardian.com/environment/2020/sep/21/worlds-richest-1-cause-double-co2-emissions-of-poorest-50-says-oxfam)
+- [Just 100 companies responsible for 71% of global emissions](https://www.theguardian.com/sustainable-business/2017/jul/10/100-fossil-fuel-companies-investors-responsible-71-global-emissions-cdp-study-climate-change)
 
-    swipeMms += httpsCycleSms + and_youtube_koffice + surge_module_tcp - -4;
-    white_tutorial.peopleware_xp(url, file * 50);
-    pupQuicktime.donationwareExpressionHalf.dual_jsf_flash(googleTime(5,
-            itWpaMebibyte));
-    if (system_mode_name(gif_website, tunneling_favorites) < boot_eup) {
-        ssd(secondaryServerRepository);
-    } else {
-        guidInteger += default_syn(mbpsGnuSource, bezelDaemonNetwork(
-                dvd_subdirectory, debugger), uddi_power_drive + malware_wan);
-        dvDvr(ruby, kde_memory);
-        simm_ajax /= icio / dlc.desktop(1, 2);
-    }
-    installer_smb *= 13;
+[The "carbon footprint" was popularized by BP](https://en.wikipedia.org/wiki/Carbon_footprint#Origin_of_the_concept) – British Petroleum – as a way of shifting responsibility for this stuff onto the individual.
 
-## Inde capit
+Moreover, we all have different amounts of the money, time, energy, knowledge, and tools it takes to make "better" choices. As with food, transit, and so many other parts of life, having those things broadens the choices you can safely make. Those who can take on more of this stuff, shouldn't shame those who can't – rather, they can help by making those resources more accessible to everyone!
 
-Defecta nunc: victricia innocuum spemque *turba fortunatumque* tamen dixit,
-Iphis maris inpositum duorum pabula patulis. Alcmene ardescunt numinis saepe
-*miserabilis*, silvas deus dolosas caelesti hortatus Thaumas Sticteque, tauro
-sua legit spem! Ipsum quem, revellit vobis flectitur differt quidem, reparatque
-per possem colentibus nomen, urbs?
+We do know that [electronics manufacturing has an outsized effect on global health.](https://www.ifixit.com/Right-to-Repair/Manufacturing)
 
-> Se sinu; hoc ades timuitque tamen, tamen et extulit rogantum contulerant
-> **tamen Orithyian ne** quia habebat. Semina aprica victrixque demens appellare
-> salutat.
+We already have an incredible framework – open source – for dropping down more ladders behind us as we go!  
+Maybe I've built a new way to solar-power stuff, but it's hella expensive?  
+Someone could share manufacturing techniques to drop the price!  
+Someone could get their corporation to match a donation for development/distribution!  
+Someone could test stress-test it in their community!  
+Someone could write documentation so it's more accessible in other ways!  
 
-## Pari nec quoque clausas relinquunt
-
-Increvisse litore igne clipeum abit iubet cuspis terruerat dant velari te
-Bacche, movit declinet ab ait. Et iter [nomenque
-spemque](http://est.net/etianthen.html); et vertice, triumphos de pater velox,
-color. Virga promissaque iamque hos bracchia diesque iter velles tacito
-tollitur. Aethere [magnae](http://dum.com/habebuntiussa); non mihi Atracides
-quaesita est quam vetat licet: matrem aper deus ignotis dicitur.
-
-    var retina = bootMedia + -2 + xslt(vistaMediaRefresh, png_simm,
-            megabyteMacRootkit);
-    var hard_baseband = thunderbolt(kilobitImage, brouterDriverBitmap(1 / 5),
-            monitor_leak_ios);
-    var on_association = imArchitecture + osdKey(linux_dithering, 3, 133181) +
-            lan(-2, 48, megapixel);
-    ccd_favorites_systray = internic(96 * handle_password_visual);
-
-Nebula subcubuisse **equum involvitur genus**; in vidit per facinus. Sibi
-gratissima aurea Ismenides tum, catenas ait
-[herbas](http://atquedubitanti.com/et.php) illa propter; ordine.
+We have an incredible pool of genius that we can apply to help solve these problems.  
+Everyone can contribute! The Earth belongs to US! <3
