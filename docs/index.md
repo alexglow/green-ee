@@ -32,18 +32,32 @@ A starting point – not exhaustive.
 * [Use cardboard to prototype](https://www.hackster.io/glowascii/f3nr1r-fennec-companion-ai-robot-prototype-d71dca) (a little obvious, but hey!)
 * [Inventory of Carbon & Energy Database](https://circularecology.com/embodied-carbon-footprint-database.html): a free online resource with information about the embodied carbon of more than 200 materials.
 
-#### Power considerations
-* Solar power
-    * [PiJuice](https://www.pishop.us/search.php?search_query=pijuice&section=product)
-    * [Becky Stern's free solar class](https://www.instructables.com/Solar-Class)
-* Joule Thief: Power some projects from a single, "dead" AA/AAA battery
-    * [Alex Glow's Joule Thief PCB](https://www.hackster.io/glowascii/joule-thief-pcb-651d67)
-* Batteries
+#### Physical design
+###### What can you change about your device to make it integrate better with the environment?
+* BoM: lower the parts count?
+* Enclosure:
+    * Fewer, more versatile, more efficient enclosure parts = less wasted material and less energy to print
+    * Can you design it to print without support?
+* Simple tweaks: [black paint on 1 blade of a wind turbine helps protect birds!](https://arstechnica.com/science/2020/08/black-paint-on-wind-turbines-helps-prevent-bird-massacres)
+
+#### Power
+* Sources
+    * Solar power?
+        * [PiJuice](https://www.pishop.us/search.php?search_query=pijuice&section=product)
+        * [Becky Stern's free solar class](https://www.instructables.com/Solar-Class)
+    * Wind power?
+        * [Texenergy "Infinite Air" portable wind turbine](https://www.ostsome.com/products/texenergy-inifnite-air-portable-wind-turbine) with USB output
+    * Drive low-drain projects from a single "dead" AA/AAA battery, using the Joule Thief circuit
+        * [Joule Thief PCB](https://www.hackster.io/glowascii/joule-thief-pcb-651d67)
+    * Crank power??
+* Better batteries
     * [LiFePO4](https://en.wikipedia.org/wiki/Lithium_iron_phosphate_battery#Advantages_and_disadvantages): Less-harmful batteries, with fewer conflict minerals (as seen in the MNT Reform)
     * [Replaceable batteries](https://www.ifixit.com/Right-to-Repair/Repairable-Products) extend the life of each product
     * Lithium battery recycling is becoming an option – good to look into if you plan on using this type of batteries
 * Time on grid
-    * [Energy Upgrade California](https://energyupgradeca.org/time-of-use): "From 4 to 9PM, energy demand is high, and less wind and solar power is available. By using less electricity during these hours, you can ensure that your energy is coming from cleaner sources." Can you design or program your product to optimize energy usage around specific times of day / local sustainable energy sources? Can you charge during off-hours, and run off battery during peak usage hours?
+    * [Energy Upgrade California](https://energyupgradeca.org/time-of-use): "From 4 to 9PM, energy demand is high, and less wind and solar power is available. By using less electricity during these hours, you can ensure that your energy is coming from cleaner sources."
+        * Can you design or program your product to optimize energy usage around specific times of day, or availability of sustainable energy sources?
+        * Charge during off-hours, then run off the battery during peak usage hours?
 
 #### Repairability / Extending your product's lifespan
 ###### Everything designed for repair is also designed for learning!
@@ -56,24 +70,25 @@ A starting point – not exhaustive.
         * [MNT Reform](https://mntre.com/reform2/handbook/schematics.html)
         * [3DR tutorials](https://www.hackster.io/3dr)
 * iFixit:
-    * [Consumer electronics repairability scores](https://www.ifixit.com/Right-to-Repair/Repairable-Products)
     * [How to design electronics for repair](https://www.ifixit.com/News/3950/what-tech-manufacturers-have-wrong-how-to-design-electronics-for-repair)
     * [Product design blog posts](https://www.ifixit.com/News/category/product-design)
 * Open source!
-    * [Open Source Hardware Association (OSHWA) certification](https://certification.oshwa.org)
 * Even large tech corporations ([Apple](https://www.apple.com/newsroom/2021/11/apple-announces-self-service-repair), [Samsung](https://news.samsung.com/us/samsung-self-repair-program-ifixit-customer-first-care-experience) with iFixit) are now providing repair parts & know-how to consumers!
 
-#### Afterparty: Revivifying technology
-* With hardware:
+#### Afterparty
+###### Revive existing tech, rather than throwing it out – or adapt it, instead of building a Whole New Thing
+* With hardware, like...
     * Joey Castillo's [Sensor Watch](https://www.crowdsupply.com/oddly-specific-objects/sensor-watch) – new life for the Casio F-91W!
     * Zach's [Virtual Boy ribbon cable replacement](https://segasonicfan.wixsite.com/retro/virtual-ribbon)
     * MNT Research: [New brains for classic Amigas](https://shop.mntmn.com/products/zz9000-for-amiga-preorder)
-* With software:
+    * [LSDj](https://www.littlesounddj.com/lsd/index.php) is a system designed to be loaded onto a custom cartridge and run on a GameBoy – using that whole platform by adding only a little piece. (And it's RAD!)
+* With software, like...
     * [Rebble](https://rebble.io) – indie replacement for the retired Pebble Watch infrastructure
-* By repurposing:
+* By repurposing, like...
     * [Wearable PCBs](https://www.hackster.io/glowascii/ouija-esp8266-programmer-planchette-d2c033) – circuit boards that also work as attractive earrings / key fobs / art objects, if they become obsolete/nonfunctional (or if prototypes don't work)
+    * XY plotters from old disk drives
 * Reclamation
-    * Provide e-waste/recycling services when customers ship their items back
+    * Provide e-waste/recycling services when customers ship their items back ([required in some places](https://www.umweltbundesamt.de/en/topics/waste-resources/product-stewardship-waste-management/electrical-electronic-waste))
 
 #### Bonus: Open design & manufacturing options
 ###### Better access, more repairability! ✨
@@ -87,6 +102,7 @@ A starting point – not exhaustive.
 * Pick'n'place assembly
     * [OpenPNP](https://openpnp.org)
     * [LumenPNP](https://opulo.io)
+    * [Pixel Pump](https://www.crowdsupply.com/robins-tools/pixel-pump): "An open source manual pick and place machine for PCB artisans" (cool vacuum pen with foot pedal)
 * To be added: Leon Anavi's talk on this subject from Open Hardware Summit '22
 
 ### Business
@@ -125,32 +141,39 @@ A starting point – not exhaustive.
 * Team building? Look up local Fixit Clinics / Repair Cafés: meetups where people are invited to bring broken appliances, and volunteers will help fix them
 
 ## Project inspiration
-######  Build for the future! What problems _do_ have technological solutions? Some ideas to get the creativity flowing...
-* Agriculture: vertical farming, seaweed, hemp, edible insects, and other sustainable options for materials and food
+######  Hack the future! How can you apply your passions to real-world issues? What problems _do_ have technological solutions? Some ideas to get the creativity flowing...
+* Agriculture:
+    * vertical farming and other structural/technical innovations
+    * sustainable options for materials and food: seaweed, hemp, [edible insects](https://www.hackster.io/sustainable-living-lab/environmental-sensing-for-black-soldier-fly-larvae-cb54e9) for humans/livestock...
     * Composting: [Compost Professor](https://www.hackster.io/darian-johnson) and other projects by Darian Johnson
-* Drones for good: [Jinger Zeng on positive applications for UAV technology](https://www.youtube.com/watch?v=_UqYqh233cw&list=PLsRBa4uXjihZwcYrwwuPhsYxWtFwMBqDF&index=3&t=818s)
+* Drones for good:
     * Humanitarian: Disaster relief, search and rescue, [medical/PPE delivery](https://flyzipline.com), communication
     * Renewable energy inspection, cleaning, and maintenance
     * Infrastructure inspection
     * Air duct inspection
     * [Aerial methane leak detection](https://kairosaerospace.com/methane-detection)
     * [Seed dispersal for wildfire recovery](https://droneseed.com)
-* Projectors / non-destructive "light graffiti" to spread information and awareness
+    * UAV swarm displays instead of fireworks: better for wildfires, better for veterans and pets/wildlife
+    * Waste management, flood risk mitigation, biodiversity conservation, open UAV data for climate resilience urban planning – UNDP, ["The Sky's Not the Limit: How Lower-Income Cities Can Leverage Drones"](https://www.undp.org/sites/g/files/zskgke326/files/2022-05/UNDP-The-Skys-Not-The-Limit.pdf), page 106+
+    * Jinger Zeng on [positive applications for UAV technology](https://www.youtube.com/watch?v=_UqYqh233cw&list=PLsRBa4uXjihZwcYrwwuPhsYxWtFwMBqDF&index=3&t=818s)
+* Projectors / non-destructive "light graffiti": spread information/awareness and apply political pressure
     * [Handheld Light Graffiti Projector](https://github.com/DisruptivelyUseful/handheld-light-graffiti): tutorial by Claire Cassidy
     * [Projection Rebellion](https://www.instagram.com/projectionrebellion)
 * Political action:
     * Helping people vote (voter education, organizing rides, streamlining the ID application process, ...)
     * Raising awareness and pressuring lawmakers on important legislation
     * Improving access to the political system
-* Machine learning applications:
+* Machine learning / AI:
     * Predictive maintenance – use sensors to detect potential machine/infrastructure failures before they happen
     * [Climate Change AI](https://www.climatechange.ai)
     * [Predictive Analytics World Climate](https://predictiveanalyticsworldclimate.com): Conference on industry applications of machine learning in climate tech
+    * ["Computer vision in the climate space"](https://www.youtube.com/watch?v=SKPoEfvA2cc), ft. Kaushal Bhavsar – how CV tech "helps find viable roof tops for installing solar panels in Singapore"
 * Protection of wildlife and natural resources against poaching, logging, etc.
     * [Smart Parks](https://www.smartparks.org) / [ElephantEdge](https://www.hackster.io/contests/ElephantEdge)
     * [OpenCollar](https://www.smartparks.org/opencollar-io) (Smart Parks): "a conservation collaboration to design, support, and deploy open-source tracking collar hardware and software for environmental and wildlife monitoring projects"
 * Environment monitoring and recording over time
     * [Crowdsourced air quality](https://www2.purpleair.com/collections/air-quality-sensors)
+    * [Greenhouse gas emissions](https://www.ribbitnetwork.org)
     * [Seismic activity](https://shop.raspberryshake.org)
     * [Water quality](https://cleanwaterai.com)
     * [AudioMoth](https://www.openacousticdevices.info) for wildlife monitoring
@@ -158,22 +181,37 @@ A starting point – not exhaustive.
 * Low-impact, low-cost scientific devices (e.g., [Spectra / OpenEIT](https://openeit.github.io/docs/html/index.html) for imaging)
 * Waste reduction or reclamation
     * One of many technologies where microbes are being used!
-    * [Horge.eu](https://www.horge.eu/en): Waste to gas
+    * [Horge.eu](https://www.horge.eu/en): Converting diverse types of waste to syngas
 * Telepresence
 * More recyclable and biodegradable – even [edible?](https://www.hackster.io/glowascii/synthenada-empanada-synthesizer-3b1335) – technologies ;)
-* Microbial technology and mycelia (fungi): Collaboration with other species is an incredible way to produce some magical results!
-    * [Microbes for breaking down plastics in the environment](https://journals.asm.org/doi/10.1128/mBio.02155-21) – "we compiled a catalogue of over 30,000 nonredundant enzyme homologues with the potential to degrade 10 different plastic types."
+* Bio-collaboration, microbial technology, and mycelia (fungi): Collaboration with other species is an incredible way to produce some magical results!
+    * Bioremediation with microbes, [breaking down plastics in the environment](https://journals.asm.org/doi/10.1128/mBio.02155-21) – "potential to degrade 10 different plastic types"
+    * Bioreactors for power: [algae panels on the façade of BIQ apartment building in Hamburg](https://www.internationale-bauausstellung-hamburg.de/en/themes-projects/the-building-exhibition-within-the-building-exhibition/smart-material-houses/biq/projekt/biq.html)
     * [Pleurotus fungus](https://www.youtube.com/watch?v=JJfDaIVl-tE) can digest crude oil, cigarette butts, glyphosate herbicide, and more!
     * [Microbial nitrogen](https://www.pivotbio.com) for agriculture
-    * [Microbes producing fuel!](https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=115514&org=NSF)
+    * [Microbes producing fuel](https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=115514&org=NSF)!
+    * [Clams as water quality sensors in Poland](https://www.thefirstnews.com/article/documentary-turns-life-saving-clams-used-to-detect-water-pollution-at-warsaw-pumping-station-into-internet-stars-13119)
+* [Hackaday Prize 2022](https://hackaday.io/contest/184555-supplyframe-designlab-2022-hackaday-prize) – inspiring projects for...
+    * [Planet-Friendly Power](https://hackaday.io/contest/184555-supplyframe-designlab-2022-hackaday-prize/log/204304-challenge-1-planet-friendly-power)
+    * [Reuse, Recycle, Revamp](https://hackaday.io/contest/184555-supplyframe-designlab-2022-hackaday-prize/log/204305-challenge-2-reuse-recycle-revamp)
+    * [Hack it Back](https://hackaday.io/contest/184555-supplyframe-designlab-2022-hackaday-prize/log/204306-challenge-3-hack-it-back)
+    * [Climate Resilient Communities](https://hackaday.io/contest/184555-supplyframe-designlab-2022-hackaday-prize/log/204307-challenge-4-climate-resilient-communities)
+    * [Save the World Wildcard](https://hackaday.io/contest/184555-supplyframe-designlab-2022-hackaday-prize/log/204308-challenge-5-save-the-world-wildcard)
 
-## Hardware Platforms
+## Hardware platforms
 ###### Existing resources for developing/deploying your own sustainability-focused hardware:
 * [FieldKit](http://conservify.org/core-projects/fieldkit): Open source hardware AND software tools for field research / citizen science and sharing data
 * [Microsoft Project 15](https://microsoft.github.io/project15): Open platform for conservation and ecological sustainability solutions
-* [ROS](https://www.ros.org) – Robot Operating System – not sustainability-focused, but an open and adaptable set of resources for robotics.
+* [ROS](https://www.ros.org) – Robot Operating System – not sustainability-focused, but an open and adaptable set of resources for robotics
 
-## Resources
+## Certifications / guidelines
+* [ROHS certification](https://www.rohsguide.com/rohs-faq.htm): Restriction of Hazardous Substances
+* [Open Source Hardware Association (OSHWA) certification](https://certification.oshwa.org)
+* [TCO Certification](https://tcocertified.com/criteria-overview/): "Criteria are comprehensive and cover both environmental and social responsibility in the supply chain and throughout the IT product life cycle."
+* [B Corporations](https://www.bcorporation.net/en-us/)
+* iFixit's [consumer electronics repairability scores](https://www.ifixit.com/Right-to-Repair/Repairable-Products)
+
+## More resources
 * [ClimateAction.tech](http://ClimateAction.tech) – Community focusing on:
     * Business culture & behavior change
     * Green software engineering
@@ -183,6 +221,5 @@ A starting point – not exhaustive.
 * [Fairphone](https://www.fairphone.com/en/impact): Notes on product longevity, circularity, fair materials, and good working conditions
 * [Project Drawdown](https://www.drawdown.org/solutions): Thoroughly researched and ranked solutions for the climate crisis, from technology ([building automation systems](https://www.drawdown.org/solutions/building-automation-systems)) to culture ([carpooling](https://www.drawdown.org/solutions/carpooling)). Filter by "electricity" for those most relevant to our niche.
 * [UN Sustainable Development Goals](https://www.undp.org/sustainable-development-goals)
-* [ROHS certification](https://www.rohsguide.com/rohs-faq.htm): Restriction of Hazardous Substances
 * Some info on [Germany's environmental policies](https://earth911.com/business-policy/recycling-in-germany) putting the onus on companies to provide recycling for their products and packaging
 * [UL whitepaper](https://github.com/alexglow/green-ee/wiki/UL-whitepaper): [Verifying Environmental Sustainability in the Electronics Marketplace](https://www.ul.com/insights/verifying-environmental-sustainability-electronics-marketplace)

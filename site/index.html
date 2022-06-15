@@ -99,12 +99,17 @@
               </ul>
             </li>
             
-            <li class="nav-item" data-level="2"><a href="#hardware-platforms" class="nav-link">Hardware Platforms</a>
+            <li class="nav-item" data-level="2"><a href="#hardware-platforms" class="nav-link">Hardware platforms</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-level="2"><a href="#resources" class="nav-link">Resources</a>
+            <li class="nav-item" data-level="2"><a href="#certifications-guidelines" class="nav-link">Certifications / guidelines</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#more-resources" class="nav-link">More resources</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -149,25 +154,48 @@ A starting point – not exhaustive.<br />
 <li><a href="https://www.hackster.io/glowascii/f3nr1r-fennec-companion-ai-robot-prototype-d71dca">Use cardboard to prototype</a> (a little obvious, but hey!)</li>
 <li><a href="https://circularecology.com/embodied-carbon-footprint-database.html">Inventory of Carbon &amp; Energy Database</a>: a free online resource with information about the embodied carbon of more than 200 materials.</li>
 </ul>
-<h4 id="power-considerations">Power considerations<a class="headerlink" href="#power-considerations" title="Permanent link">&para;</a></h4>
+<h4 id="physical-design">Physical design<a class="headerlink" href="#physical-design" title="Permanent link">&para;</a></h4>
+<h6 id="what-can-you-change-about-your-device-to-make-it-integrate-better-with-the-environment">What can you change about your device to make it integrate better with the environment?<a class="headerlink" href="#what-can-you-change-about-your-device-to-make-it-integrate-better-with-the-environment" title="Permanent link">&para;</a></h6>
 <ul>
-<li>Solar power<ul>
+<li>BoM: lower the parts count?</li>
+<li>Enclosure:<ul>
+<li>Fewer, more versatile, more efficient enclosure parts = less wasted material and less energy to print</li>
+<li>Can you design it to print without support?</li>
+</ul>
+</li>
+<li>Simple tweaks: <a href="https://arstechnica.com/science/2020/08/black-paint-on-wind-turbines-helps-prevent-bird-massacres">black paint on 1 blade of a wind turbine helps protect birds!</a></li>
+</ul>
+<h4 id="power">Power<a class="headerlink" href="#power" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Sources<ul>
+<li>Solar power?<ul>
 <li><a href="https://www.pishop.us/search.php?search_query=pijuice&amp;section=product">PiJuice</a></li>
 <li><a href="https://www.instructables.com/Solar-Class">Becky Stern's free solar class</a></li>
 </ul>
 </li>
-<li>Joule Thief: Power some projects from a single, "dead" AA/AAA battery<ul>
-<li><a href="https://www.hackster.io/glowascii/joule-thief-pcb-651d67">Alex Glow's Joule Thief PCB</a></li>
+<li>Wind power?<ul>
+<li><a href="https://www.ostsome.com/products/texenergy-inifnite-air-portable-wind-turbine">Texenergy "Infinite Air" portable wind turbine</a> with USB output</li>
 </ul>
 </li>
-<li>Batteries<ul>
+<li>Drive low-drain projects from a single "dead" AA/AAA battery, using the Joule Thief circuit<ul>
+<li><a href="https://www.hackster.io/glowascii/joule-thief-pcb-651d67">Joule Thief PCB</a></li>
+</ul>
+</li>
+<li>Crank power??</li>
+</ul>
+</li>
+<li>Better batteries<ul>
 <li><a href="https://en.wikipedia.org/wiki/Lithium_iron_phosphate_battery#Advantages_and_disadvantages">LiFePO4</a>: Less-harmful batteries, with fewer conflict minerals (as seen in the MNT Reform)</li>
 <li><a href="https://www.ifixit.com/Right-to-Repair/Repairable-Products">Replaceable batteries</a> extend the life of each product</li>
 <li>Lithium battery recycling is becoming an option – good to look into if you plan on using this type of batteries</li>
 </ul>
 </li>
 <li>Time on grid<ul>
-<li><a href="https://energyupgradeca.org/time-of-use">Energy Upgrade California</a>: "From 4 to 9PM, energy demand is high, and less wind and solar power is available. By using less electricity during these hours, you can ensure that your energy is coming from cleaner sources." Can you design or program your product to optimize energy usage around specific times of day / local sustainable energy sources? Can you charge during off-hours, and run off battery during peak usage hours?</li>
+<li><a href="https://energyupgradeca.org/time-of-use">Energy Upgrade California</a>: "From 4 to 9PM, energy demand is high, and less wind and solar power is available. By using less electricity during these hours, you can ensure that your energy is coming from cleaner sources."<ul>
+<li>Can you design or program your product to optimize energy usage around specific times of day, or availability of sustainable energy sources?</li>
+<li>Charge during off-hours, then run off the battery during peak usage hours?</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -187,35 +215,34 @@ A starting point – not exhaustive.<br />
 </ul>
 </li>
 <li>iFixit:<ul>
-<li><a href="https://www.ifixit.com/Right-to-Repair/Repairable-Products">Consumer electronics repairability scores</a></li>
 <li><a href="https://www.ifixit.com/News/3950/what-tech-manufacturers-have-wrong-how-to-design-electronics-for-repair">How to design electronics for repair</a></li>
 <li><a href="https://www.ifixit.com/News/category/product-design">Product design blog posts</a></li>
 </ul>
 </li>
-<li>Open source!<ul>
-<li><a href="https://certification.oshwa.org">Open Source Hardware Association (OSHWA) certification</a></li>
-</ul>
-</li>
+<li>Open source!</li>
 <li>Even large tech corporations (<a href="https://www.apple.com/newsroom/2021/11/apple-announces-self-service-repair">Apple</a>, <a href="https://news.samsung.com/us/samsung-self-repair-program-ifixit-customer-first-care-experience">Samsung</a> with iFixit) are now providing repair parts &amp; know-how to consumers!</li>
 </ul>
-<h4 id="afterparty-revivifying-technology">Afterparty: Revivifying technology<a class="headerlink" href="#afterparty-revivifying-technology" title="Permanent link">&para;</a></h4>
+<h4 id="afterparty">Afterparty<a class="headerlink" href="#afterparty" title="Permanent link">&para;</a></h4>
+<h6 id="revive-existing-tech-rather-than-throwing-it-out-or-adapt-it-instead-of-building-a-whole-new-thing">Revive existing tech, rather than throwing it out – or adapt it, instead of building a Whole New Thing<a class="headerlink" href="#revive-existing-tech-rather-than-throwing-it-out-or-adapt-it-instead-of-building-a-whole-new-thing" title="Permanent link">&para;</a></h6>
 <ul>
-<li>With hardware:<ul>
+<li>With hardware, like...<ul>
 <li>Joey Castillo's <a href="https://www.crowdsupply.com/oddly-specific-objects/sensor-watch">Sensor Watch</a> – new life for the Casio F-91W!</li>
 <li>Zach's <a href="https://segasonicfan.wixsite.com/retro/virtual-ribbon">Virtual Boy ribbon cable replacement</a></li>
 <li>MNT Research: <a href="https://shop.mntmn.com/products/zz9000-for-amiga-preorder">New brains for classic Amigas</a></li>
+<li><a href="https://www.littlesounddj.com/lsd/index.php">LSDj</a> is a system designed to be loaded onto a custom cartridge and run on a GameBoy – using that whole platform by adding only a little piece. (And it's RAD!)</li>
 </ul>
 </li>
-<li>With software:<ul>
+<li>With software, like...<ul>
 <li><a href="https://rebble.io">Rebble</a> – indie replacement for the retired Pebble Watch infrastructure</li>
 </ul>
 </li>
-<li>By repurposing:<ul>
+<li>By repurposing, like...<ul>
 <li><a href="https://www.hackster.io/glowascii/ouija-esp8266-programmer-planchette-d2c033">Wearable PCBs</a> – circuit boards that also work as attractive earrings / key fobs / art objects, if they become obsolete/nonfunctional (or if prototypes don't work)</li>
+<li>XY plotters from old disk drives</li>
 </ul>
 </li>
 <li>Reclamation<ul>
-<li>Provide e-waste/recycling services when customers ship their items back</li>
+<li>Provide e-waste/recycling services when customers ship their items back (<a href="https://www.umweltbundesamt.de/en/topics/waste-resources/product-stewardship-waste-management/electrical-electronic-waste">required in some places</a>)</li>
 </ul>
 </li>
 </ul>
@@ -238,6 +265,7 @@ A starting point – not exhaustive.<br />
 <li>Pick'n'place assembly<ul>
 <li><a href="https://openpnp.org">OpenPNP</a></li>
 <li><a href="https://opulo.io">LumenPNP</a></li>
+<li><a href="https://www.crowdsupply.com/robins-tools/pixel-pump">Pixel Pump</a>: "An open source manual pick and place machine for PCB artisans" (cool vacuum pen with foot pedal)</li>
 </ul>
 </li>
 <li>To be added: Leon Anavi's talk on this subject from Open Hardware Summit '22</li>
@@ -292,22 +320,27 @@ A starting point – not exhaustive.<br />
 <li>Team building? Look up local Fixit Clinics / Repair Cafés: meetups where people are invited to bring broken appliances, and volunteers will help fix them</li>
 </ul>
 <h2 id="project-inspiration">Project inspiration<a class="headerlink" href="#project-inspiration" title="Permanent link">&para;</a></h2>
-<h6 id="build-for-the-future-what-problems-do-have-technological-solutions-some-ideas-to-get-the-creativity-flowing">Build for the future! What problems <em>do</em> have technological solutions? Some ideas to get the creativity flowing...<a class="headerlink" href="#build-for-the-future-what-problems-do-have-technological-solutions-some-ideas-to-get-the-creativity-flowing" title="Permanent link">&para;</a></h6>
+<h6 id="hack-the-future-how-can-you-apply-your-passions-to-real-world-issues-what-problems-do-have-technological-solutions-some-ideas-to-get-the-creativity-flowing">Hack the future! How can you apply your passions to real-world issues? What problems <em>do</em> have technological solutions? Some ideas to get the creativity flowing...<a class="headerlink" href="#hack-the-future-how-can-you-apply-your-passions-to-real-world-issues-what-problems-do-have-technological-solutions-some-ideas-to-get-the-creativity-flowing" title="Permanent link">&para;</a></h6>
 <ul>
-<li>Agriculture: vertical farming, seaweed, hemp, edible insects, and other sustainable options for materials and food<ul>
+<li>Agriculture:<ul>
+<li>vertical farming and other structural/technical innovations</li>
+<li>sustainable options for materials and food: seaweed, hemp, <a href="https://www.hackster.io/sustainable-living-lab/environmental-sensing-for-black-soldier-fly-larvae-cb54e9">edible insects</a> for humans/livestock...</li>
 <li>Composting: <a href="https://www.hackster.io/darian-johnson">Compost Professor</a> and other projects by Darian Johnson</li>
 </ul>
 </li>
-<li>Drones for good: <a href="https://www.youtube.com/watch?v=_UqYqh233cw&amp;list=PLsRBa4uXjihZwcYrwwuPhsYxWtFwMBqDF&amp;index=3&amp;t=818s">Jinger Zeng on positive applications for UAV technology</a><ul>
+<li>Drones for good:<ul>
 <li>Humanitarian: Disaster relief, search and rescue, <a href="https://flyzipline.com">medical/PPE delivery</a>, communication</li>
 <li>Renewable energy inspection, cleaning, and maintenance</li>
 <li>Infrastructure inspection</li>
 <li>Air duct inspection</li>
 <li><a href="https://kairosaerospace.com/methane-detection">Aerial methane leak detection</a></li>
 <li><a href="https://droneseed.com">Seed dispersal for wildfire recovery</a></li>
+<li>UAV swarm displays instead of fireworks: better for wildfires, better for veterans and pets/wildlife</li>
+<li>Waste management, flood risk mitigation, biodiversity conservation, open UAV data for climate resilience urban planning – UNDP, <a href="https://www.undp.org/sites/g/files/zskgke326/files/2022-05/UNDP-The-Skys-Not-The-Limit.pdf">"The Sky's Not the Limit: How Lower-Income Cities Can Leverage Drones"</a>, page 106+</li>
+<li>Jinger Zeng on <a href="https://www.youtube.com/watch?v=_UqYqh233cw&amp;list=PLsRBa4uXjihZwcYrwwuPhsYxWtFwMBqDF&amp;index=3&amp;t=818s">positive applications for UAV technology</a></li>
 </ul>
 </li>
-<li>Projectors / non-destructive "light graffiti" to spread information and awareness<ul>
+<li>Projectors / non-destructive "light graffiti": spread information/awareness and apply political pressure<ul>
 <li><a href="https://github.com/DisruptivelyUseful/handheld-light-graffiti">Handheld Light Graffiti Projector</a>: tutorial by Claire Cassidy</li>
 <li><a href="https://www.instagram.com/projectionrebellion">Projection Rebellion</a></li>
 </ul>
@@ -318,10 +351,11 @@ A starting point – not exhaustive.<br />
 <li>Improving access to the political system</li>
 </ul>
 </li>
-<li>Machine learning applications:<ul>
+<li>Machine learning / AI:<ul>
 <li>Predictive maintenance – use sensors to detect potential machine/infrastructure failures before they happen</li>
 <li><a href="https://www.climatechange.ai">Climate Change AI</a></li>
 <li><a href="https://predictiveanalyticsworldclimate.com">Predictive Analytics World Climate</a>: Conference on industry applications of machine learning in climate tech</li>
+<li><a href="https://www.youtube.com/watch?v=SKPoEfvA2cc">"Computer vision in the climate space"</a>, ft. Kaushal Bhavsar – how CV tech "helps find viable roof tops for installing solar panels in Singapore"</li>
 </ul>
 </li>
 <li>Protection of wildlife and natural resources against poaching, logging, etc.<ul>
@@ -331,6 +365,7 @@ A starting point – not exhaustive.<br />
 </li>
 <li>Environment monitoring and recording over time<ul>
 <li><a href="https://www2.purpleair.com/collections/air-quality-sensors">Crowdsourced air quality</a></li>
+<li><a href="https://www.ribbitnetwork.org">Greenhouse gas emissions</a></li>
 <li><a href="https://shop.raspberryshake.org">Seismic activity</a></li>
 <li><a href="https://cleanwaterai.com">Water quality</a></li>
 <li><a href="https://www.openacousticdevices.info">AudioMoth</a> for wildlife monitoring</li>
@@ -340,27 +375,45 @@ A starting point – not exhaustive.<br />
 <li>Low-impact, low-cost scientific devices (e.g., <a href="https://openeit.github.io/docs/html/index.html">Spectra / OpenEIT</a> for imaging)</li>
 <li>Waste reduction or reclamation<ul>
 <li>One of many technologies where microbes are being used!</li>
-<li><a href="https://www.horge.eu/en">Horge.eu</a>: Waste to gas</li>
+<li><a href="https://www.horge.eu/en">Horge.eu</a>: Converting diverse types of waste to syngas</li>
 </ul>
 </li>
 <li>Telepresence</li>
 <li>More recyclable and biodegradable – even <a href="https://www.hackster.io/glowascii/synthenada-empanada-synthesizer-3b1335">edible?</a> – technologies ;)</li>
-<li>Microbial technology and mycelia (fungi): Collaboration with other species is an incredible way to produce some magical results!<ul>
-<li><a href="https://journals.asm.org/doi/10.1128/mBio.02155-21">Microbes for breaking down plastics in the environment</a> – "we compiled a catalogue of over 30,000 nonredundant enzyme homologues with the potential to degrade 10 different plastic types."</li>
+<li>Bio-collaboration, microbial technology, and mycelia (fungi): Collaboration with other species is an incredible way to produce some magical results!<ul>
+<li>Bioremediation with microbes, <a href="https://journals.asm.org/doi/10.1128/mBio.02155-21">breaking down plastics in the environment</a> – "potential to degrade 10 different plastic types"</li>
+<li>Bioreactors for power: <a href="https://www.internationale-bauausstellung-hamburg.de/en/themes-projects/the-building-exhibition-within-the-building-exhibition/smart-material-houses/biq/projekt/biq.html">algae panels on the façade of BIQ apartment building in Hamburg</a></li>
 <li><a href="https://www.youtube.com/watch?v=JJfDaIVl-tE">Pleurotus fungus</a> can digest crude oil, cigarette butts, glyphosate herbicide, and more!</li>
 <li><a href="https://www.pivotbio.com">Microbial nitrogen</a> for agriculture</li>
-<li><a href="https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=115514&amp;org=NSF">Microbes producing fuel!</a></li>
+<li><a href="https://www.nsf.gov/discoveries/disc_summ.jsp?cntn_id=115514&amp;org=NSF">Microbes producing fuel</a>!</li>
+<li><a href="https://www.thefirstnews.com/article/documentary-turns-life-saving-clams-used-to-detect-water-pollution-at-warsaw-pumping-station-into-internet-stars-13119">Clams as water quality sensors in Poland</a></li>
+</ul>
+</li>
+<li><a href="https://hackaday.io/contest/184555-supplyframe-designlab-2022-hackaday-prize">Hackaday Prize 2022</a> – inspiring projects for...<ul>
+<li><a href="https://hackaday.io/contest/184555-supplyframe-designlab-2022-hackaday-prize/log/204304-challenge-1-planet-friendly-power">Planet-Friendly Power</a></li>
+<li><a href="https://hackaday.io/contest/184555-supplyframe-designlab-2022-hackaday-prize/log/204305-challenge-2-reuse-recycle-revamp">Reuse, Recycle, Revamp</a></li>
+<li><a href="https://hackaday.io/contest/184555-supplyframe-designlab-2022-hackaday-prize/log/204306-challenge-3-hack-it-back">Hack it Back</a></li>
+<li><a href="https://hackaday.io/contest/184555-supplyframe-designlab-2022-hackaday-prize/log/204307-challenge-4-climate-resilient-communities">Climate Resilient Communities</a></li>
+<li><a href="https://hackaday.io/contest/184555-supplyframe-designlab-2022-hackaday-prize/log/204308-challenge-5-save-the-world-wildcard">Save the World Wildcard</a></li>
 </ul>
 </li>
 </ul>
-<h2 id="hardware-platforms">Hardware Platforms<a class="headerlink" href="#hardware-platforms" title="Permanent link">&para;</a></h2>
+<h2 id="hardware-platforms">Hardware platforms<a class="headerlink" href="#hardware-platforms" title="Permanent link">&para;</a></h2>
 <h6 id="existing-resources-for-developingdeploying-your-own-sustainability-focused-hardware">Existing resources for developing/deploying your own sustainability-focused hardware:<a class="headerlink" href="#existing-resources-for-developingdeploying-your-own-sustainability-focused-hardware" title="Permanent link">&para;</a></h6>
 <ul>
 <li><a href="http://conservify.org/core-projects/fieldkit">FieldKit</a>: Open source hardware AND software tools for field research / citizen science and sharing data</li>
 <li><a href="https://microsoft.github.io/project15">Microsoft Project 15</a>: Open platform for conservation and ecological sustainability solutions</li>
-<li><a href="https://www.ros.org">ROS</a> – Robot Operating System – not sustainability-focused, but an open and adaptable set of resources for robotics.</li>
+<li><a href="https://www.ros.org">ROS</a> – Robot Operating System – not sustainability-focused, but an open and adaptable set of resources for robotics</li>
 </ul>
-<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h2>
+<h2 id="certifications-guidelines">Certifications / guidelines<a class="headerlink" href="#certifications-guidelines" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.rohsguide.com/rohs-faq.htm">ROHS certification</a>: Restriction of Hazardous Substances</li>
+<li><a href="https://certification.oshwa.org">Open Source Hardware Association (OSHWA) certification</a></li>
+<li><a href="https://tcocertified.com/criteria-overview/">TCO Certification</a>: "Criteria are comprehensive and cover both environmental and social responsibility in the supply chain and throughout the IT product life cycle."</li>
+<li><a href="https://www.bcorporation.net/en-us/">B Corporations</a></li>
+<li>iFixit's <a href="https://www.ifixit.com/Right-to-Repair/Repairable-Products">consumer electronics repairability scores</a></li>
+</ul>
+<h2 id="more-resources">More resources<a class="headerlink" href="#more-resources" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="http://ClimateAction.tech">ClimateAction.tech</a> – Community focusing on:<ul>
 <li>Business culture &amp; behavior change</li>
@@ -373,7 +426,6 @@ A starting point – not exhaustive.<br />
 <li><a href="https://www.fairphone.com/en/impact">Fairphone</a>: Notes on product longevity, circularity, fair materials, and good working conditions</li>
 <li><a href="https://www.drawdown.org/solutions">Project Drawdown</a>: Thoroughly researched and ranked solutions for the climate crisis, from technology (<a href="https://www.drawdown.org/solutions/building-automation-systems">building automation systems</a>) to culture (<a href="https://www.drawdown.org/solutions/carpooling">carpooling</a>). Filter by "electricity" for those most relevant to our niche.</li>
 <li><a href="https://www.undp.org/sustainable-development-goals">UN Sustainable Development Goals</a></li>
-<li><a href="https://www.rohsguide.com/rohs-faq.htm">ROHS certification</a>: Restriction of Hazardous Substances</li>
 <li>Some info on <a href="https://earth911.com/business-policy/recycling-in-germany">Germany's environmental policies</a> putting the onus on companies to provide recycling for their products and packaging</li>
 <li><a href="https://github.com/alexglow/green-ee/wiki/UL-whitepaper">UL whitepaper</a>: <a href="https://www.ul.com/insights/verifying-environmental-sustainability-electronics-marketplace">Verifying Environmental Sustainability in the Electronics Marketplace</a></li>
 </ul></div>
@@ -457,5 +509,5 @@ A starting point – not exhaustive.<br />
 
 <!--
 MkDocs version : 1.3.0
-Build Date UTC : 2022-05-31 01:24:01.842557+00:00
+Build Date UTC : 2022-06-15 23:23:29.329018+00:00
 -->
